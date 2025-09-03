@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity3">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/poupanca_logo"
+        android:contentDescription="Logo poupança"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv13"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et13"
+        android:textSize="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv23"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et23"
+        android:textSize="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv33"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et33"
+        android:textSize="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv43"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et43"
+        android:textSize="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calcPoupanca"
+        android:text="@string/btnCalc3"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/bluePoupanca"/>
+
+</LinearLayout>

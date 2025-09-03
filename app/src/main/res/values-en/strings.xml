@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv13">Initial value:</string>
+    <string name="et13">Value in R$ Ex.: 1700.00:</string>
+    <string name="tv23">Monthly application:</string>
+    <string name="tv33">Application period:</string>
+    <string name="et33">In months</string>
+    <string name="tv43">Fee:</string>
+    <string name="btnCalc3">CALCULATE</string>
+    <string name="tela4tv1">Total consumption R$:</string>
+    <string name="tela4tv2">Artistic cover R$:</string>
+    <string name="tela4tv3">"Share bill for: "</string>
+    <string name="btntela4">Calculate final bill</string>
+    <string name="tela4tv4">Service fee (10%) R$:</string>
+    <string name="tela4tv5">Total bill R$:</string>
+    <string name="tela4tv6">Price per person R$:</string>
+</resources>

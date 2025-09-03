@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Teste</string>
+    <string name="tela4tv1">Consumo total R$:</string>
+    <string name="tela4tv2">Portada artística R$:</string>
+    <string name="tela4tv3">Dividir la factura por:</string>
+    <string name="btntela4">Calcular factura final</string>
+    <string name="tela4tv4">Cargo por servicio (10%) R$:</string>
+    <string name="tela4tv5">Factura total R$:</string>
+    <string name="tela4tv6">Valor por persona R$:</string>
+</resources>

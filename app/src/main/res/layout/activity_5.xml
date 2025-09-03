@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Questão 11 de 28"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quiz_transito_banner"
+        android:contentDescription="Quiz banner"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/placa"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q11 - Qual o significado desta placa?"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calcPoupanca"
+        android:text="Ponte a frente"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/verdeQuiz"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estreitamento de pista"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="@color/verdeQuiz"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Declive acentuado"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="@color/verdeQuiz"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Redução de largura de veículos"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="@color/verdeQuiz"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Próxima pergunta"
+        android:textSize="20dp"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="@color/cinza"/>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="menu">#740F89</color>
+
+    <color name="bluePoupanca">#2A2A92</color>
+
+    <color name="verdeQuiz">#26AF26</color>
+    <color name="cinza">#808080</color>
+    
+    <color name="balaiodalenha">#FF5722</color>
+
+    <color name="cinzinha">#B4B4B4</color>
+</resources>

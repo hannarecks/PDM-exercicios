@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:stretchColumns="*"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4">
+
+    <TableRow
+        android:layout_marginTop="100dp"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/onibus"
+            android:contentDescription="onibus_icon" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/aviao"
+            android:contentDescription="aviao_icon" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/bairros"
+            android:contentDescription="bairros_icon" />
+    </TableRow>
+
+    <TableRow
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/turismo"
+            android:contentDescription="turismo_icon" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/telefone"
+            android:contentDescription="telefone_icon" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/taxi"
+            android:contentDescription="taxi_icon" />
+    </TableRow>
+
+    <TableRow
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/cultura"
+            android:contentDescription="cultura_icon" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/feriados"
+            android:contentDescription="feri_icon" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/sac"
+            android:contentDescription="sac_icon" />
+    </TableRow>
+
+</TableLayout>

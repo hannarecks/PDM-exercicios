@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/aula2"
+        android:backgroundTint="@color/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="Aula2"
+        android:textSize="25dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/aula3"
+        android:backgroundTint="@color/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnAula3"
+        android:text="Aula 3 Tela 1"
+        android:textSize="25dp"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:id="@+id/aula3Tela2"
+        android:backgroundTint="@color/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnAula3Tela2"
+        android:text="Aula 3 Tela 2"
+        android:textSize="25dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/aula3Tela3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/menu"
+        android:onClick="btnAula3Tela3"
+        android:text="Aula 3 Tela 3"
+        android:textSize="25dp"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:id="@+id/aula3Tela4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/menu"
+        android:onClick="btnAula3Tela4"
+        android:text="Aula 3 Tela 4"
+        android:textSize="25dp"
+        android:layout_marginBottom="5dp" />
+
+
+</LinearLayout>
